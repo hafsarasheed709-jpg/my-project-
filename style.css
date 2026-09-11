@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* Deep Dark Blue Background */
+    color: white;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+/* Navigation Links */
+nav a {
+    color: #00d2ff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Project Section Heading */
+h2 {
+    margin-top: 30px;
+    color: #94a3b8;
+    font-weight: 400;
+}
+
+/* Card Styling (Glassmorphism Effect) */
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(0, 210, 255, 0.5);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* Project Titles Inside Cards */
+.card h3 {
+    color: #f8fafc;
+    margin-bottom: 10px;
+}
+
+/* Open Button Styling */
+.open-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+    transition: 0.3s;
+    border: none;
+}
+
+.open-btn:hover {
+    box-shadow: 0 6px 20px rgba(0, 210, 255, 0.5);
+    transform: scale(1.05);
+}
+
+/* Upload Section */
+.upload-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+}
